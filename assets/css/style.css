@@ -1,0 +1,138 @@
+/*=============================
+        ASSETS
+==============================*/
+
+/* 
+fonts:’Maven Pro’ , ‘Gilda Display’ 
+farbe: #333, #ffffff, #3dc8d5, #8507e1, #194894 , #cccccc, 
+*/
+
+@font-face {
+    font-family: GildaDisplay-Regular;
+    src: url("../fonts/gilda-display/GildaDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: MavenPro-Regular;
+    src: url("../fonts/maven-pro/MavenPro-Regular.ttf");
+}
+
+/*=============================
+        General Styles
+==============================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+h2,
+h3 {
+    font-family: GildaDisplay-Regular;
+}
+
+h1,
+p,
+a {
+    font-family: MavenPro-Regular;
+}
+
+/*=============================
+        Header Styles
+==============================*/
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 30px;
+}
+
+header h1 {
+    color: #cccccc;
+    letter-spacing: 5px;
+}
+
+header article {
+    background-image: linear-gradient(to bottom right, #8507e1, #194894, #3dc8d5);
+    width: 350px;
+    padding: 20px;
+    margin: 25vh auto;
+}
+
+header article:hover {
+    background-image: linear-gradient(to bottom right, #3dc8d5, #194894, #8507e1);
+}
+
+header article h2 {
+    font-size: 6.5rem;
+    margin-bottom: 20px;
+}
+
+header article p {
+    font-size: 2rem;
+}
+
+header ul {
+    list-style: none;
+    text-align: right;
+}
+
+header ul li {
+    margin-bottom: 15px;
+}
+
+header ul li a {
+    color: #cccccc;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #ffffff;
+}
+
+/*=============================
+        Main Styles
+==============================*/
+
+main section:nth-of-type(1) {
+    background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
+    background-repeat: no-repeat;
+    background-size: 75%;
+    margin: 25vh 0 20vh 5%;
+    padding-top: 15vh;
+}
+
+main section:nth-of-type(1) h2 {
+    font-size: 5rem;
+    margin-bottom: 5vh;
+}
+
+main section:nth-of-type(1) p {
+    font-size: 2rem;
+    margin-bottom: 2vh;
+    width: 40%;
+}
+
+main .content__project {
+    margin: 0 15% 5vh 15%;
+}
+
+main .content__project img {
+    border-radius: 5rem;
+    width: 100%;
+}
+
+main .content__project h3 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+main .content__project p {
+    font-size: 2rem;
+}
